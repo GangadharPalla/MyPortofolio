@@ -1,0 +1,207 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color:rgb(4, 4, 32);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(33, 33, 81);
+  padding: 20px 0;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  position: sticky;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+header nav .right ul
+{
+  display: flex;
+  justify-content: center;
+
+}
+nav .left
+{
+  font-size: 2.5rem;
+}
+
+nav .right ul li{
+  list-style: none;
+  margin: 0px 23px;
+  font-size: 1.2rem;
+}
+nav .right ul li a:hover{
+  columns: blueviolet;
+  font-size: 1.1rem;
+}
+
+.firstSection
+{
+  display: flex;
+  justify-content: space-around;
+   margin-top: 110px;
+}
+
+.firstSection > div{
+  width: 30%;
+
+ 
+}
+.leftSection
+{
+  margin: 70px 0;
+  font-size: 2.1em;
+}
+
+.color
+{
+  color: rgb(128, 17, 232);
+}
+.rightSection img{
+  width: 80%;
+  height: 80%;
+  
+}
+
+.secondSection
+{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+hr{
+  border: 0;
+  background-color:rgb(33, 33, 81);
+  height: 1.2px;
+  margin: 44px 80px;
+}
+
+.secondSection .box 
+{
+  height: 1.2px;
+  width: 80vw;
+  background: white;
+  margin: 50px 0;
+  display: flex;
+
+}
+
+.secondSection .vertical
+{
+  width: 1px;
+  height: 90px;
+  background: white;
+  margin: 0 200px;
+
+}
+.image-top
+{
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.secondSection .vertical-title
+{
+  position: relative;
+  top: 75px;
+  width: 200px;
+  font-size: 1.1rem;
+
+}
+.secondSection .vertical-desc
+{
+  position: relative;
+  width: 250px;
+  top:80px;
+  color: grey;
+  font-size: 15px;
+}
+footer{
+  background-color: black;
+}
+
+footer .footer
+{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.footer .left{
+  font-size: 1.5rem;
+  margin-left: 50px;
+ 
+  margin-top: 30px;
+}
+.footer .right
+{
+  padding: 20px;
+}
+.footer .right ul li{
+  list-style: none;
+  padding: 5px;
+  font-size: 15px;
+  color: gray;
+}
+
+.copyright
+{
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.635);
+  padding-top: 30px;
+  color:  rgb(215, 197, 232);;
+}
+.footer .right ul li a{
+  text-decoration: none;
+  color: grey;
+}
+.buttons
+{
+  margin-top: 15px;
+  display: flex;
+}
+
+.btn
+{
+  
+  background-color: rgb(68, 68, 211);
+  
+  width: auto;
+  padding: 10px 10px ;
+  font-size: 15px;
+  color: white;
+  margin-left: 10px;
+  border: 2px white;
+  border-radius: 10px;
+
+  
+}
+.btn:hover
+{
+  background-color: grey;
+}
+.buttons a
+{
+  text-decoration: none;
+  color: white;
+}
+.contact
+{
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
